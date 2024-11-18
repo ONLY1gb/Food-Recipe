@@ -1,0 +1,81 @@
+.card-container {
+    display: flex;
+    justify-content: center; /* Center the cards horizontally */
+    flex-wrap: wrap; /* Allow cards to wrap to the next line if necessary */
+    gap: 40px; /* Space between cards */
+    margin: 20px; /* Optional: margin around the container */
+  }
+  
+  .card {
+    flex: 0 1 18rem; /* Set a base width for the cards */
+    max-width: 100%; /* Ensure cards don't exceed their container */
+    border: 1px solid #ccc; /* Add a border */
+    border-radius: 8px; /* Optional: add rounded corners */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Optional: add a subtle shadow */
+    overflow: hidden; /* Optional: ensures content doesn't overflow the card */
+    font-size: 24px;
+  }
+
+  .card-img-top {
+    width: 100%; /* Make the image take the full width of the card */
+    height: auto; /* Maintain the aspect ratio */
+  }
+  
+  .card-body {
+    padding: 1rem; /* Add some padding to the card body */
+
+  }
+
+  .card-title{
+    font-size: 25px;
+    margin-bottom: 23px;
+  }
+
+.btn{
+    width: 200px;
+    height: 44px;
+    font-size: 20px;
+    text-align: center;
+    justify-content: center;
+    color: black;
+    background-color: #ffc720;
+    cursor: pointer;
+    margin-left: 20px;
+    display:  inline-block;
+    color: black;
+    text-decoration: none;
+    padding: 10px 5px;
+    font-size: 25px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    text-align: center;
+    transition: all 0.3s ease-in-out; /* Smooth transition */
+}  
+
+.btn:hover {
+    
+    transform: scale(1.1); /* Slightly enlarge */
+  }
+
+.card-text{
+    font-style: normal;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.recipe-details{
+    font-size: 25px;
+    text-align: center;
+    flex-wrap: wrap;
+    
+}
+
+.closebtn{
+    width: 110px;
+    height: 50px;
+    font-size: 25px;
+    background-color: rgb(45, 206, 45);
+
+}
+
+

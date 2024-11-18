@@ -1,0 +1,44 @@
+.head {
+    text-align: center;
+    margin: 20px 0;
+  }
+  
+  .container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+
+
+
+.search{
+    display: flex;
+    justify-content: center;
+    gap: 7px;
+    margin-top: 22px;
+    
+  }
+
+.search-input {
+    width: 500px; 
+    height: 30px;
+    font-size: 26px; 
+    padding: 5px; 
+  }
+
+.search-button{
+    width: 120px;
+    height: 44px;
+    font-size: 25px;
+    padding: 5px 15px;
+    background-color: #ffc720;
+    color: black;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+} 
+
+.search-button:hover{
+    background-color: orange;
+}
