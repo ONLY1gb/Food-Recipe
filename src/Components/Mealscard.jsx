@@ -13,7 +13,7 @@ const Mealscard = ({ meals = [] }) => {
       {selectedMeal ? (
         <div className="recipe-details">
           <h2>{selectedMeal.strMeal}</h2>
-          <img src={selectedMeal.strMealThumb} alt={selectedMeal.strMeal} />
+          <img src={selectedMeal.strMealThumb} alt={selectedMeal.strMeal} className='recipe-img' />
           <p>{selectedMeal.strInstructions}</p>
           <button className='closebtn' onClick={() => setSelectedMeal(null)}>Close</button>
         </div>

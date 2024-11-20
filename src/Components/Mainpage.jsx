@@ -57,7 +57,7 @@ const Mainpage = () => {
               placeholder='Enter Dish'
               onChange={handleInput}
               onKeyDown={handleKeyDown} // Add onKeyDown event handler
-            />
+            /> 
             <button className='search-button' onClick={myFun}>Search</button>
           </div>
         </div>

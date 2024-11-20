@@ -63,10 +63,25 @@
     font-family: 'Times New Roman', Times, serif;
 }
 
+.recipe-img{
+  width: 400px;
+  height: auto;
+}
+
 .recipe-details{
-    font-size: 25px;
+
+     width:100%;
+     max-width: 400px;
+     margin: 0 auto;
+     overflow: hidden;
+     border: 1px solid #ccc;
+     border-radius: 8px;
+     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);  
+
+    /* font-size: 25px;
     text-align: center;
     flex-wrap: wrap;
+    padding: 10px; */
     
 }
 
@@ -76,6 +91,26 @@
     font-size: 25px;
     background-color: rgb(45, 206, 45);
 
+}
+
+
+@media (max-width: 768px) {
+  .search-input {
+    width: 80%; /* Adjust input width for tablets */
+    margin-right: 5px; /* Reduce margin for smaller screens */
+  }
+
+  .search-button {
+    padding: 8px 12px; /* Adjust button padding */
+  }
+}
+
+@media (max-width: 480px) {
+  .container {
+    flex-direction: column; /* Stack elements vertically on small screens */
+    height: auto; /* Allow height to adjust */
+    padding: 20px; /* Add some padding */
+  }
 }
 
 
